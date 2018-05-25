@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{exam}
+ 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor= blue,anchorcolor=blue]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{amsmath,amsfonts,amssymb,graphicx,multicol,tikz,color,colortbl,multirow,anysize,lmodern,
+mdwlist,enumerate,textcomp,fancybox,caption}
+
+\setlength{\headheight}{1cm}
+\setlength{\textwidth}{0cm}
+\marginsize{1.5cm}{1.5cm}{1.5cm}{1.5cm}
+
+%Esta línea da el formato de la numeración, del formato por defecto (a) a utilizar solo paréntesis derecho a)
+\renewcommand{\partlabel}{\thepartno)}
+
+\header{Encabezado izq. sup. \\ Encabezado izq. inf.}{Encabezado central sup. \\ Encabezado central inf.}{Encabezado der. sup. \\ Encabezado der. inf.}
+\headrule
+
+\footer{}{Página \thepage \,de \numpages}{}
+\footrule
+
+\begin{document}
+
+Nombre y apellido:\hrulefill
+
+Grupo:\rule{2cm}{0.1mm}
+\vspace{0.5cm}
+\begin{questions}
+\question Primera pregunta
+\question Segunda pregunta
+\end{questions}
+
+\begin{questions}
+ 
+\question Primera pregunta
+	\begin{parts}
+	\part Primera parte de pregunta
+		\begin{subparts}
+			\subpart Primera subparte
+			\subpart Segunda subparte
+		\end{subparts}
+	\part Segunda parte de pregunta
+	\end{parts}
+ 
+\question Segunda pregunta
+	\begin{align}
+		2x+4 & =0 \notag \\
+		2x & =-4 \label{opuesto}\\
+		x & =-2
+	\end{align}
+	¿Cómo se obtuvo la ecuación \ref{opuesto}?
+	
+\end{questions}
+
+% Alineación izquierda de funciones
+\[
+\left \{
+\begin{array}{l}
+5x+5y=10\\
+x+y=2
+\end{array}
+\right .
+\]
+
+% Alineación en columnas de funciones
+\[
+\left \{
+\begin{array}{rcl}
+5x & +5y & =10\\
+x & +y & =2
+\end{array}
+\right .
+\]
+
+\[
+\left(
+\begin{array}{rcl}
+2x^2 & +2x & =0\\
+x^2 & +x & =0
+\end{array}
+\right)
+\]
+
+
+\end{document}
