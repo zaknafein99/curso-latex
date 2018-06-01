@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Ismael Marquez" />
+  <meta name="dcterms.date" content="2018-01-01" />
+  <title>Título de prueba</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title"><strong>Título de prueba</strong></h1>
+<p class="author">Ismael Marquez</p>
+<p class="date">2018</p>
+</header>
+
+
+<p><img src="arch.png" alt="image" /></p>
+<p>¡Hola! Mi nombre es Ismael Marquez. Soy docente de Informática en secundaria desde el año 2001. Hace tiempo que tenía ganas de aprender <span>LaTeX</span> pero nunca me decidía. Este era el estímulo que precisaba.</p>
+<p>¡Saludos!</p>
+<h1 id="sección-de-ejemplo">Sección de ejemplo</h1>
+<p>Texto de ejemplo</p>
+<h2 id="primera-subsección-de-ejemplo">Primera subsección de ejemplo</h2>
+<p>Texto de ejemplo</p>
+<h2 id="segunda-subsección-de-ejemplo">Segunda subsección de ejemplo</h2>
+<p>Texto de ejemplo</p>
+<p>Lista numerada</p>
+<ol>
+<li><p>Primer ítem</p></li>
+<li><p>Segundo ítem</p></li>
+</ol>
+<p>Lista numerada con sublista</p>
+<ol>
+<li><p>Primer ítem</p>
+<ol>
+<li><p>Primer subítem</p></li>
+<li><p>Segundo subítem</p></li>
+</ol></li>
+<li><p>Segundo ítem</p></li>
+</ol>
+<p>Lista desordenada con sublista</p>
+<ul>
+<li><p>Primer ítem</p>
+<ul>
+<li><p>Primer subítem</p></li>
+<li><p>Segundo subítem</p></li>
+</ul></li>
+<li><p>Segundo ítem</p></li>
+</ul>
+<p>Separando párrafos. 1 enter Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>2 enter</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
+usando doble barra inclinada<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
